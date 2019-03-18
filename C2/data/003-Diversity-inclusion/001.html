@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/diversity.css" />
+  </head>
+
+  <body>
+    <div
+      class="cali-container absolute w100 h100 background-image-area background-bottom background-cover"
+      style="background-image: url('./images/11_diversity_blurred.jpg'); background-color: #badce6;"
+      data-california-sub-page="0"
+      data-california-sub-page-keep-open="6"
+    >
+      <div
+        class="cali-container absolute w100 sm-w50 h100"
+        data-california-sub-page="0"
+        data-california-sub-page-keep-open="0"
+      >
+        <div class="center-box center-content">
+          <h1 class="large-screen-title text-center">
+            Diversity and inclusion
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="cali-container absolute w100 h100 background-image-area background-bottom background-cover"
+      style="background-image: url('./images/11_diversity.jpg'); background-color: #badce6;"
+      data-california-sub-page="1"
+      data-california-sub-page-focus="right"
+    ></div>
+
+    <div
+      class="cali-container absolute w100 h100 background-image-area background-bottom background-cover"
+      style="background-image: url('./images/11_diversity_blurred.jpg'); background-color: #badce6;"
+      data-california-sub-page="2"
+      data-california-sub-page-keep-open="4"
+      data-california-sub-page-focus="left"
+    ></div>
+
+    <div class="cali-container absolute w50 h100" data-california-sub-page="2" style="z-index:1;">
+      <div
+        class="cali-container-panel w75 sm-w100 center-box sm-padded-small text-right diversity-exercise"
+      >
+        <h2 class="sm-h2 text-left">
+          A friend invites you to a party where you don’t know anyone. How do you feel when you
+          arrive? (tick in the boxes)
+        </h2>
+        <br />
+        <ul class="diversity-check-list text-left">
+          <li>
+            <label><input type="checkbox" /> Self-confident</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Curious</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Afraid</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Unsure</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Happy</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Scared</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Sad</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Expectant</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Hesitant</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Shy</label>
+          </li>
+        </ul>
+        <button
+          class="content-continue-button heather disabled"
+          disabled="disabled"
+          data-california-navigation="navtonextsubpage"
+        >
+          <span class="label">Done</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="cali-container absolute w50 h100"
+      data-california-sub-page="3"
+      data-california-sub-page-focus="right"
+    ></div>
+
+    <div
+      class="cali-container absolute w50 h100"
+      data-california-sub-page="4"
+      data-california-sub-page-focus="left"
+      style="z-index:1;"
+    >
+      <div
+        class="cali-container-panel w75 sm-w100 center-box sm-padded-small text-right diversity-exercise"
+      >
+        <h2 class="sm-h2 text-left">
+          How could other act to make you feel more appreciated? (Tick in the boxes)
+        </h2>
+        <br />
+        <ul class="diversity-check-list text-left">
+          <li>
+            <label><input type="checkbox" /> Welcoming</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Talkative</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Interested</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Silent</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Ignoring</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Curious about you</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Smiling at you</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Talk to you</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Turn away from you</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Filling you in on stories</label>
+          </li>
+        </ul>
+
+        <button
+          class="content-continue-button heather disabled"
+          data-california-navigation="navtonextsubpage"
+        >
+          <span class="label">Done</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="cali-container absolute w50 h100"
+      data-california-sub-page="5"
+      data-california-sub-page-focus="right"
+    ></div>
+    <!-- 
+    <div class="cali-container absolute w25 sm-w50 sm-h100 h100 padded-small" data-california-sub-page="6" data-california-sub-page-focus="left">
+
+        <button class="cali-container-panel center-box content-continue-button heather active"
+            data-california-navigation="NavToNextSlide" style="z-index:1;">
+            <span class="label">Continue</span>
+        </button>
+
+    </div> -->
+
+    <script>
+      (function() {
+        function findParent(el, className) {
+          while ((el = el.parentElement) && !el.classList.contains(className));
+          return el;
+        }
+        var diversityCheckBoxes = document.querySelectorAll(
+          ".diversity-exercise input[type='checkbox']"
+        );
+        for (var i = 0; i < diversityCheckBoxes.length; i++) {
+          var chkBox = diversityCheckBoxes[i];
+          chkBox.addEventListener("change", function() {
+            var parentArea = findParent(this, "diversity-exercise");
+            var checkedNum = parentArea.querySelectorAll("input[type='checkbox']:checked").length;
+            var btn = parentArea.querySelector(".content-continue-button");
+
+            if (checkedNum > 0) {
+              btn.removeAttribute("disabled");
+              btn.classList.remove("disabled");
+              btn.classList.add("active");
+            } else {
+              btn.setAttribute("disabled", "disabled");
+              btn.classList.add("disabled");
+              btn.classList.remove("active");
+            }
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

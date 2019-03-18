@@ -1,0 +1,1499 @@
+{
+  "ID": "67b02d1c-0df4-447c-b992-e02cea22b8fd",
+  "Name": "Introduction for new employees - part two",
+  "Settings": {
+    "MenuRoot": true,
+    "ResizeMode": "fixed",
+    "Position": [
+      {
+        "x": "0",
+        "y": "0"
+      }
+    ],
+    "Size": [
+      {
+        "width": "100%",
+        "height": "100%"
+      }
+    ]
+  },
+  "ContentType": "html",
+  "Data": ["data/000-Start/000.1.html"],
+  "Children": [
+    {
+      "ID": "fe1d0891-999c-4816-8721-85bef897f79c",
+      "Name": "Course select",
+      "Settings": {
+        "ResizeMode": "parent"
+      },
+      "ContentType": "html",
+      "Data": [],
+      "Children": [
+        {
+          "ID": "b1c000e9-8b69-4ea2-adfc-9fa43b60aa1a",
+          "Name": "Welcome",
+          "ContentType": "html",
+          "Data": ["data/001-Intro-recap/001.html"],
+          "Settings": {
+            "NavigationBase": true,
+            "ResizeMode": "fixed",
+            "Progresstype": "visited",
+            "Locked": "sequential",
+            "MediaAutoPlay": "firsttime",
+            "PreviousItem":"none",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "25%",
+                "y": "20%"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "80%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0%"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "b71b51f3-acb4-4da6-bbfb-e00056fc776f",
+          "Name": "Your computer",
+          "ContentType": "html",
+          "Data": [
+            "data/002-Your-computer/000.html",
+            "chroma-key-video:data/002-Your-computer/video/3_1_your_computer_introduction_full.mp4"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "mediaend",
+            "Locked": "sequential",
+            "MediaAutoPlay": "firsttime",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "37%",
+                "y": "30%"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "22%",
+                "height": "70%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0%"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "74bdd8fe-22d4-432b-94cb-d254f8c63c93",
+          "Name": "Diversity and inclusion",
+          "ContentType": "html",
+          "Data": [
+            "data/003-Diversity-inclusion/backdrop.html",
+            "chroma-key-video:data/003-Diversity-inclusion/video/11_1_diversity_introduction_island_half.mp4",
+            "data/003-Diversity-inclusion/000.1.html"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "completed",
+            "Locked": "sequential",
+            "MediaAutoPlay": false,
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "30%",
+                "y": "0"
+              },
+              {
+                "x": "0",
+                "y": "0"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "40%",
+                "height": "100%"
+              },
+              {
+                "width": "100%",
+                "height": "100%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0%"
+              },
+              {
+                "x": "0",
+                "y": "0"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              },
+              {
+                "width": "100%",
+                "height": "100%"
+              }
+            ]
+          },
+          "Children": [
+            {
+              "ID": "cb63a25d-c55a-4435-b183-0442c95da6f6",
+              "Name": "Diversity and inclusion 1",
+              "ContentType": "html",
+              "Data": [
+                "data/003-Diversity-inclusion/001.html",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_2_diversity_introduction_external_half.mp4",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_3_diversity_introduction_external_2_half.mp4",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_4_diversity_introduction_external_3_half.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "PreviousItem": "74bdd8fe-22d4-432b-94cb-d254f8c63c93",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  }
+                ],
+                "SmallSize": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  }
+                ],
+                "SmallPosition": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "abe5cd03-172c-43a3-9c57-6c23e68fbbd2",
+              "Name": "Diversity and inclusion 2",
+              "ContentType": "html",
+              "Data": [
+                "drag-drop-quiz:data/003-Diversity-inclusion/002.html",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_5_diversity_exercise_external_half.mp4",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_6_diversity_exercise_external_feedback_half.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "PreviousItem": "cb63a25d-c55a-4435-b183-0442c95da6f6",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "25%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "15%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  }
+                ],
+                "SmallPosition": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  }
+                ],
+                "SmallSize": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  }
+                ]
+              },
+              "Children": []
+            },
+            {
+              "ID": "7200bbc0-7a52-4034-84c1-7415bd6e5ec9",
+              "Name": "Diversity and inclusion 3",
+              "ContentType": "html",
+              "Data": [
+                "data/003-Diversity-inclusion/backdrop.html",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_7_diversity_exercise_external_guide_completed_half.mp4",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_7_diversity_exercise_external_guide_completed_2_half.mp4",
+                "chroma-key-video:data/003-Diversity-inclusion/video/11_7_diversity_exercise_external_guide_completed_3_half.mp4",
+                "data/003-Diversity-inclusion/003.html"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "PreviousItem": "abe5cd03-172c-43a3-9c57-6c23e68fbbd2",
+                "NextItem": "c32cdcb4-dc48-4ac2-98da-65922e6da055",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "30%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "40%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ],
+                "SmallPosition": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "50%"
+                  },
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "SmallSize": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "50%"
+                  },
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              },
+              "Children": []
+            }
+          ]
+        },
+        {
+          "ID": "c32cdcb4-dc48-4ac2-98da-65922e6da055",
+          "Name": "Health and safety",
+          "ContentType": "html",
+          "Data": [
+            "data/004-Health-safety/000.html",
+            "chroma-key-video:data/004-Health-safety/video/13_1_health_and_safety_island_full.mp4"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "completed",
+            "Locked": "sequential",
+            "MediaAutoPlay": false,
+            "NextItem": "0204837c-ec40-4a61-a948-2a917dd48826",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "40%",
+                "y": "0"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "30%",
+                "height": "100%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          },
+          "Children": [
+            {
+              "ID": "3e1aa1d0-bd9f-4424-a68e-04c1b33ff117",
+              "Name": "Volvo traffic safety program",
+              "ContentType": "media",
+              "Data": ["data/004-Health-safety/video/volvo_traffic_safety.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "parent",
+                "Progresstype": "none",
+                "Locked": "sequential",
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent"
+              }
+            },
+            {
+              "ID": "1532f7a6-2fb8-4999-8fc7-c2fd54fa0bb9",
+              "Name": "Risks hunting",
+              "ContentType": "media",
+              "Data": ["data/004-Health-safety/video/risks_hunting_.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "parent",
+                "Progresstype": "none",
+                "Locked": "sequential",
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent"
+              }
+            }
+          ]
+        },
+        {
+          "ID": "0204837c-ec40-4a61-a948-2a917dd48826",
+          "Name": "How we learn",
+          "ContentType": "html",
+          "Data": [
+            "data/005-How-we-learn/000.1.html",
+            "chroma-key-video:data/005-How-we-learn/video/17_1_how_we_learn_introduction_island_full.mp4"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "completed",
+            "Locked": "sequential",
+            "MediaAutoPlay": "firsttime",
+            "PreviousItem": "c32cdcb4-dc48-4ac2-98da-65922e6da055",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "40%",
+                "y": "0"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "30%",
+                "height": "100%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          },
+          "Children": [
+            {
+              "ID": "56ea0b8e-2096-4640-abdf-49417bf74a7b",
+              "Name": "How we learn 1",
+              "ContentType": "html",
+              "Data": [
+                "data/005-How-we-learn/001.html",
+                "chroma-key-video:data/005-How-we-learn/video/17_2_how_we_learn_external_introduction_half.mp4",
+                "chroma-key-video:data/005-How-we-learn/video/17_3_how_we_learn_external_quiz_half_v1.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "PreviousItem": "0204837c-ec40-4a61-a948-2a917dd48826",
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "990a9fd0-c643-471d-b892-f93161c09b24",
+              "Name": "Quiz",
+              "ContentType": "iframe",
+              "Data": ["data/005-How-we-learn/Quiz/index.html"],
+              "Settings": {
+                "ResizeMode": "parent",
+                "Locked": false
+              }
+            },
+            {
+              "ID": "4d4011c9-9268-498b-b4d6-80221aacb89f",
+              "Name": "How we learn 2",
+              "ContentType": "html",
+              "Data": [
+                "data/005-How-we-learn/002.html",
+                "chroma-key-video:data/005-How-we-learn/video/17_4_5_how_we_learn_external_quiz_assignment.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "PreviousItem": "56ea0b8e-2096-4640-abdf-49417bf74a7b",
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "06f126c6-3ab4-4651-bb73-a59ae3eb3ab4",
+              "Name": "How we learn 3",
+              "ContentType": "html",
+              "Data": [
+                "drag-drop-quiz:data/005-How-we-learn/003.html",
+                "chroma-key-video:data/005-How-we-learn/video/17_6_7_how_we_learn_external_assignment_feedback_half.mp4",
+                "chroma-key-video:data/005-How-we-learn/video/17_8_how_we_learn_external_learning_exercise_feedback_correct_half.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "completed",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "8b76fafb-6a10-4854-8641-1569347f4f83",
+              "Name": "How we learn 4",
+              "ContentType": "html",
+              "Data": [
+                "data/005-How-we-learn/004.html",
+                "chroma-key-video:data/005-How-we-learn/video/17_11_how_we_learn_external_learning_exercise_completed_half.mp4"
+              ],
+              "Settings": {
+                "ResizeMode": "fixed",
+                "Progresstype": "mediaend",
+                "Locked": "sequential",
+                "MediaAutoPlay": false,
+                "Aftermedia": "NavToNextSlide",
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  },
+                  {
+                    "x": "50%",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  },
+                  {
+                    "width": "50%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+
+        {
+          "ID": "e6183e78-5475-43cf-b62f-3d07bb77a72f",
+          "Name": "Volvo Group University",
+          "ContentType": "html",
+          "Data": [
+            "data/006-Volvo-Group-university/000.html",
+            "chroma-key-video:data/006-Volvo-Group-university/video/19_1_volvo_group_university_island_half.mp4"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "mediaend",
+            "Locked": "sequential",
+            "MediaAutoPlay": "firsttime",
+            "NextItem": "42651169-8352-4fd3-a811-b0171adf2505",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "40%",
+                "y": "0"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          },
+          "Children": [
+            {
+              "ID": "cdf204df-fb31-41a6-9fad-f66f9ec996f0",
+                "Name": "Volvo Group University Film",
+                "ContentType": "media",
+                "Data": [
+                  "data/006-Volvo-Group-university/video/volvo_group_university.mp4"
+                ],
+                "Settings": {
+                  "Hidden": true,
+                  "ResizeMode": "parent",
+                  "Progresstype": "none",
+                  "Locked": "sequential",
+                  "NextItem": "parent",
+                  "PreviousItem": "parent",
+                  "MediaAutoPlay": true,
+                  "Aftermedia": "NavToParent"
+              }
+            }
+          ]
+        },
+
+        {
+          "ID": "42651169-8352-4fd3-a811-b0171adf2505",
+          "Name": "Good bye!",
+          "ContentType": "html",
+          "Data": [
+            "data/007-Good-bye/000.html",
+            "chroma-key-video:data/007-Good-bye/videos/21_1_outro_main_menu_half.mp4"
+          ],
+          "Settings": {
+            "ResizeMode": "fixed",
+            "Progresstype": "mediaend",
+            "Locked": "sequential",
+            "MediaAutoPlay": true,
+            "PreviousItem": "e6183e78-5475-43cf-b62f-3d07bb77a72f",
+            "NextItem": "null",
+            "Position": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "40%",
+                "y": "0"
+              }
+            ],
+            "Size": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ],
+            "SmallPosition": [
+              {
+                "x": "0",
+                "y": "0"
+              },
+              {
+                "x": "50%",
+                "y": "0"
+              }
+            ],
+            "SmallSize": [
+              {
+                "width": "100%",
+                "height": "100%"
+              },
+              {
+                "width": "50%",
+                "height": "100%"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "ddbb7665-16dd-4793-a431-6ef7d0c7c5bb",
+          "Name": "Film gallery",
+          "ContentType": "html",
+          "Data": ["data/film-gallery/001.html"],
+          "Settings": {
+            "ResizeMode": "parent",
+            "Progresstype": "none",
+            "PreviousItem": "bookmark",
+            "NextItem": "bookmark",
+            "PreventBookmark": true,
+            "Locked": false
+          },
+          "Children": [
+            {
+              "ID": "50577489-a7d5-4f8d-a0b2-e3d020ebdd73",
+              "Name": "Debbie",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_customer_focus_debbie_smith.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "132030da-90ee-4fba-ac2e-3f5d767afdfd",
+              "Name": "Elin",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_elin_ornberg_genuine_interest_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "6217eb25-64a4-4bf1-8416-377a07493daa",
+              "Name": "Elisabeth",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_elisabeth_davidson.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "a1bfeb5d-7d8b-4a20-aa04-73a89141295f",
+              "Name": "Viking",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_feedback_viking_johansson.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "bde6efc8-a655-426f-ab0a-6632e7863b41",
+              "Name": "Arthur",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_involvment_arthur_liu.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "0bf2bd23-b6f1-4d5a-96b6-df100bd2bcb0",
+              "Name": "Torsten",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_involvment_torsten_dahlberg.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "c31601c8-300b-4e4e-babb-a7cfadb20765",
+              "Name": "Jarek",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_jarek_pietowski_moscow_achievement_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "b9798e85-eaf7-4060-9f75-ae04c1b4ddb0",
+              "Name": "Joss",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_joss_grigg_downturn_u_turn_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "91df89a7-3415-48bf-b74f-3d13eb56fbcc",
+              "Name": "Kamila",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_kamila_czaja_great_motivation_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "4d0f0a29-6499-4003-8895-944f1a691c6c",
+              "Name": "Vicky",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_open_dialogue_vicky_ni.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "f674eee7-4934-401c-b971-2241490e7649",
+              "Name": "Pasi",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_pasi_aihtia_into_the_jungle_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "358d04e0-9856-4ff7-b529-85e164ac3b2a",
+              "Name": "Raja",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_raja_accidents_will_happen_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "f85acf1d-965d-41a7-a923-c681aa36f749",
+              "Name": "Ravi",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_ravi_prasad_no_stoppage_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "883c47c1-80b7-4ea8-84c9-e294b3a9ca83",
+              "Name": "Lourdes",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_respect_lourdes_milder.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "3b977ba2-2fb8-4f58-8c7e-1d9be2efd52a",
+              "Name": "Richard",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_richard_baker_simulator_success_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "7759d6e9-6d38-452e-b7d9-89fff0f77074",
+              "Name": "Bastien",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_teamwork_bastien_laforet.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "868794f3-1079-448c-ba3c-8fd188d4f6d7",
+              "Name": "Terezinha",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_terezinha_galvao.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            },
+            {
+              "ID": "1c189554-417e-4756-bf06-edcfd65af6bd",
+              "Name": "Vanessa",
+              "ContentType": "media",
+              "Data": ["data/film-gallery/vw_vanessa_da_silva_fontes_from_fear_to_NEW.mp4"],
+              "Settings": {
+                "Hidden": true,
+                "ResizeMode": "fixed",
+                "Progresstype": "none",
+                "Locked": false,
+                "NextItem": "parent",
+                "PreviousItem": "parent",
+                "MediaAutoPlay": true,
+                "Aftermedia": "NavToParent",
+                "PreventBookmark": true,
+                "Position": [
+                  {
+                    "x": "0",
+                    "y": "0"
+                  }
+                ],
+                "Size": [
+                  {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

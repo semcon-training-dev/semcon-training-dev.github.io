@@ -1,0 +1,25 @@
+﻿WEBVTT
+
+00:00:01.120 --> 00:00:08.120
+We have covered a lot of these steps so far and perhaps others we haven’t thought of!
+
+00:00:08.160 --> 00:00:12.360
+We have a good approach to learning that you can use to plan your development.
+
+00:00:12.360 --> 00:00:16.310
+It’s based on experience, exposure and education.
+
+00:00:16.310 --> 00:00:23.670
+We do most of our learning at work, on the job, through new task and challenges. That’s experience.
+
+00:00:23.670 --> 00:00:33.630
+We learn a lot from working side by side with colleagues, by watching others, by teaching others and through your networks. That’s exposure.
+
+00:00:33.630 --> 00:00:43.470
+We learn by more formal training where we take courses, perhaps at the Volvo Group University, in a classroom or an e-learning.
+
+00:00:43.470 --> 00:00:45.590
+We call this education.
+
+00:00:45.590 --> 00:00:51.030
+How much of your learning comes from the three different approaches? What do you think?

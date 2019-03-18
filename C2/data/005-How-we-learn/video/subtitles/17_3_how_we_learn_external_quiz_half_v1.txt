@@ -1,0 +1,10 @@
+﻿WEBVTT
+
+00:00:00.320 --> 00:00:06.480
+Now we are going to do a quiz – just for fun and you can get your colleagues to do it as well.
+
+00:00:06.480 --> 00:00:13.480
+We have covered a lot of the topics of the quiz in this introduction, so you can probably beat your more experienced co-workers!
+
+00:00:13.480 --> 00:00:15.480
+Good luck!

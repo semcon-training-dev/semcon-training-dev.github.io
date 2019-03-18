@@ -1,0 +1,19 @@
+﻿WEBVTT
+
+00:00:01.150 --> 00:00:04.160
+Well you are now no longer a brand new employee,
+
+00:00:04.160 --> 00:00:11.120
+but have a bit more experience and you know a bit more about the Volvo Group, your colleagues and your job.
+
+00:00:11.120 --> 00:00:16.320
+In this training you have gone through the organization, our brands and how we learn.
+
+00:00:16.320 --> 00:00:21.800
+You’ve looked at Health and safety, met our customers and much more besides!
+
+00:00:21.800 --> 00:00:28.800
+I’d like to wish you the best of luck on your journey through the company and I know we will grow and develop together.
+
+00:00:28.800 --> 00:00:30.790
+Bye for now!

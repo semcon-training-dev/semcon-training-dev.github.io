@@ -1,0 +1,10 @@
+﻿WEBVTT
+
+00:00:01.030 --> 00:00:09.000
+Well done – yes research shows that 70% of what we learn is on the job and based on our day to day experiences.
+
+00:00:09.000 --> 00:00:16.480
+20% of learning is through conversations, networking, asking questions, coaching and mentoring.
+
+00:00:16.480 --> 00:00:20.480
+10% of what we learn is through formal training programs.
