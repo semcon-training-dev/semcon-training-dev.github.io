@@ -1,0 +1,13 @@
+﻿WEBVTT
+
+00:00:00.960 --> 00:00:05.740
+Diversity is the many ways in which we can be different from each other.
+
+00:00:05.740 --> 00:00:15.670
+And inclusion is how well we work together across our differences – how well we cooperate and try to understand each other.
+
+00:00:15.670 --> 00:00:17.820
+Have a look at this graph.
+
+00:00:17.820 --> 00:00:22.740
+Now take the three teams and place them in the graph where they belong.

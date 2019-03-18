@@ -1,0 +1,4 @@
+﻿WEBVTT
+
+00:00:00.840 --> 00:00:07.110
+Very good! These are our joint ventures in construction.

@@ -1,0 +1,13 @@
+﻿WEBVTT
+
+00:00:01.000 --> 00:00:07.800
+  Thanks. As I told you Volvo Group has over 100.000 employees around the world.
+
+00:00:07.800 --> 00:00:13.000
+  Would you like to make a clever guess how we are distributed over the different continents?
+
+00:00:13.000 --> 00:00:19.920
+  Please drag the percentage values from here and drop each one of them on the corresponding continent on the map.
+
+00:00:19.920 --> 00:00:23.390
+  Press done when you are ready.

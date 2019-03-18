@@ -1,0 +1,38 @@
+﻿WEBVTT
+
+
+00:00:00.910 --> 00:00:01.920
+Hi!
+
+00:00:01.920 --> 00:00:06.870
+I think you already know that we, here at the Volvo Group do many different things.
+
+00:00:06.870 --> 00:00:09.950
+We produce Trucks
+
+00:00:09.950 --> 00:00:11.910
+We produce buses
+
+00:00:11.910 --> 00:00:15.140
+We produce construction equipment
+
+00:00:15.140 --> 00:00:18.580
+We produce marine and industrial engines
+
+00:00:18.580 --> 00:00:21.780
+And we offer Financial Services.
+
+00:00:21.780 --> 00:00:27.100
+We mostly conduct business through brands that we own fully or partly
+
+00:00:27.100 --> 00:00:31.020
+and also through brands of our Joint Venture partners.
+
+00:00:31.020 --> 00:00:36.860
+All our product bands together form our brands – a strategic asset.
+
+00:00:36.860 --> 00:00:40.720
+These are our product brands.
+
+00:00:40.720 --> 00:00:46.720
+Now, it is your job to drag them to the right place!

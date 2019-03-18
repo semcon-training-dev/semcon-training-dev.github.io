@@ -1,0 +1,7 @@
+﻿WEBVTT
+
+00:00:00.770 --> 00:00:05.810
+You might know what diversity is but do you know what inclusion means?
+   
+00:00:05.810 --> 00:00:07.810
+Click here to learn more!

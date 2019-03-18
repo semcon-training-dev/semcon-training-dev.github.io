@@ -1,0 +1,11 @@
+﻿WEBVTT
+
+00:00:00.640 --> 00:00:03.240
+  Excellent, you got it right.
+
+00:00:03.240 --> 00:00:07.840
+  This is how all our employees are distributed over the whole world.
+
+00:00:07.840 --> 00:00:12.920
+  These numbers change of course, but this gives you a good idea.
+

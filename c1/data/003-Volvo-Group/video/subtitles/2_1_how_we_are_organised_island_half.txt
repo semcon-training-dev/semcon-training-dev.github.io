@@ -1,0 +1,16 @@
+﻿WEBVTT
+
+00:00:01.150 --> 00:00:03.270
+  Who are we and what do we do?
+
+00:00:03.270 --> 00:00:06.710
+  What is this company that you have started to work for?
+
+00:00:06.710 --> 00:00:09.710
+  You probably have some idea by now.
+
+00:00:09.710 --> 00:00:16.830
+  But it’s a large organisation with a global reach and it’s hard to get a good overview of everything we do.
+
+00:00:16.830 --> 00:00:21.500
+  Let’s start then by going through what it is we actually do.

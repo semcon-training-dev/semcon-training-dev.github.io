@@ -1,0 +1,28 @@
+﻿WEBVTT
+
+00:00:00.190 --> 00:00:03.820
+  Hello! It's good to see you here today.
+
+00:00:03.820 --> 00:00:07.980
+  We are going to be working together quite a bit over the next while.
+
+00:00:07.980 --> 00:00:12.580
+  What we are getting started on is your introduction to the Volvo Group.
+
+00:00:12.580 --> 00:00:19.540
+I would like to make sure that you, as a new employee, have a good grasp of what happens in the company!
+
+00:00:19.540 --> 00:00:26.750
+This is a required training, and we recommend that you complete it within the first three months.
+
+00:00:27.750 --> 00:00:33.300
+  You will cover the major areas in the company from our organisation and our brands
+
+00:00:33.300 --> 00:00:36.800
+  to the way we learn at Volvo, and our customers.
+
+00:00:36.800 --> 00:00:43.500
+So now you have a good idea what is ahead of you. I hope you’ll find it rewarding and useful!
+
+00:00:43.500 --> 00:00:52.900
+  First, if you haven’t seen the short animated film “The Story of the Volvo Group”, you can start by watching it right here.

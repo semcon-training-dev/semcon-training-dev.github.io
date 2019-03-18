@@ -1,0 +1,19 @@
+{
+    "mediaquality": {
+        "label": "Video quality",
+        "type": "selectone",
+        "values": [
+            {
+                "label": "High",
+                "value": ""
+            },
+            {
+                "label": "Low",
+                "value": "low"
+            }
+        ],
+        "default": [
+            ""
+        ]
+    }
+}

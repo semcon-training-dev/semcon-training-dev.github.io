@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/global.css">
+</head>
+
+<body>
+
+    <div id="volvo-intro" class="page page-background">
+
+        <section class="text-content-container left">
+            <div class="text-content">
+                <h1>Welcome</h1>
+                <h2>Before we move on...</h2>
+                <p>...let's see what you already now know about our company!</p>
+
+<p>And don't worry, probably you'll not have all of the answers yet. This is why you'll get a new chance to test your knowledge by the end of the training. When you know all the answers. 
+
+                </p>
+                <button class="in-content-button" data-california-navigation="NavToNext">
+                    <span class="label">Start quiz</span>
+                </button>
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+            
+
+
+
+
+
+
+        </section>
+
+    </div>
+
+
+    
+
+
+
+
+
+    <script>
+        window.document.onkeydown = function (e) {
+            if (!e) {
+                e = event;
+            }
+            if (e.keyCode == 27) {
+                lightbox_close();
+            }
+        }
+
+        function lightbox_open() {
+            var lightBoxVideo = document.getElementById("StoryVolvoGroup");
+            window.scrollTo(0, 0);
+            document.getElementById('light').style.display = 'block';
+            document.getElementById('fade').style.display = 'block';
+            lightBoxVideo.play();
+        }
+
+        function lightbox_close() {
+            var lightBoxVideo = document.getElementById("StoryVolvoGroup");
+            document.getElementById('light').style.display = 'none';
+            document.getElementById('fade').style.display = 'none';
+            lightBoxVideo.pause();
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

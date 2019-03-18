@@ -1,0 +1,7 @@
+﻿WEBVTT
+
+00:00:00.910 --> 00:00:02.680
+  Good, you got it right.
+
+00:00:02.680 --> 00:00:08.120
+  This of course changes somewhat over the years but gives you an idea of proportions.

@@ -1,0 +1,23 @@
+﻿WEBVTT
+
+00:00:00.830 --> 00:00:05.110
+  So now we have a bit of information about what we do and where we work.
+
+00:00:05.110 --> 00:00:08.120
+  Let’s give it a bit of structure and put it all together.
+
+00:00:08.120 --> 00:00:11.360
+  Let’s look at the sales numbers in the organisation.
+
+00:00:11.360 --> 00:00:14.120
+  Again I’m curious about your thoughts.
+
+00:00:14.120 --> 00:00:20.040
+  Work with this chart to see what percentage each area has of our overall sales.
+
+00:00:20.040 --> 00:00:23.550
+  Drag the sales areas to the pie chart.
+
+00:00:23.550 --> 00:00:26.920
+  Press done when you are ready.
+

@@ -1,0 +1,151 @@
+.flex-container>div.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    padding-right: 50px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-container>div.tooltip {
+        padding-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .flex-container {}
+
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .flex-container>div.tooltip {
+        width: 100%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .flex-container>div.tooltip .content-continue-button {
+    margin: 0;
+}
+
+.flex-container>div.tooltip .tooltiptext {
+    position: fixed;
+    width: calc(100% - (15px * 2));
+    max-width: 1570px;
+    left: 0;
+    bottom: 171px;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(51, 51, 51, 1);
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 13px;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: center bottom;
+    transition: opacity .2s ease-in-out 0s, transform 0s ease-in-out.2s;
+}
+
+.flex-container>div.tooltip:hover .tooltiptext {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: opacity .2s ease-in-out .1s, transform 0s ease-in-out 0s;
+}
+
+
+
+@media screen and (max-width: 667px) {
+    .flex-container>div.tooltip .tooltiptext {
+        width: 100%;
+        bottom: 81px;
+    }
+}
+
+.laptop-video {
+    position: absolute;
+    width: 316px;
+    height: 220px;
+    bottom: 0;
+    right: 0;
+}
+
+.laptop-video .controls,
+.laptop-video video {
+    position: absolute;
+    width: 52%;
+    top: 29%;
+    left: 24%;
+    height: 48%;
+}
+
+.laptop-video .controls {
+    transition: opacity .3s ease-in-out;
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button {
+    position: absolute;
+    left: 10px;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 667px) {
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button {
+        min-height: 30px;
+        font-size: 12px;
+        width: 96%;
+        left: 2%;
+    }
+
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button:before {
+        background-size: 20px;
+    }
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video.playing .controls {
+    opacity: 0;
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video.playing .controls:hover {
+    opacity: 1;
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.play,
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.pause {
+    top: 10px;
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.play {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.pause {
+
+    transform: scaleY(0);
+}
+
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video.playing .controls .content-continue-button.play {
+
+    transform: scaleY(0);
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video.playing .controls .content-continue-button.pause {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.work {
+    top: 70px;
+}
+
+@media screen and (max-width: 667px) {
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .laptop-video .controls .content-continue-button.work {
+        top: 50px;
+    }
+}
