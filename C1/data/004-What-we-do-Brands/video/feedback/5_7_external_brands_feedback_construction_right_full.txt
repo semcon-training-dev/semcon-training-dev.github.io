@@ -1,4 +1,0 @@
-﻿WEBVTT
-
-00:00:00.990 --> 00:00:06.990
-Great! These are our construction equipment brands.

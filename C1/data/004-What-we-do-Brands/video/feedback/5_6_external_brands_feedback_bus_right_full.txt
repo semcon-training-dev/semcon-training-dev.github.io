@@ -1,4 +1,0 @@
-﻿WEBVTT
-
-00:00:00.890 --> 00:00:06.890
-Good! These are our bus brands.

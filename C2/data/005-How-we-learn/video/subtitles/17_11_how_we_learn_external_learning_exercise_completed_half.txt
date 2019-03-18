@@ -1,7 +1,0 @@
-﻿WEBVTT
-
-00:00:01.080 --> 00:00:06.520
-If you are aware of this, you can plan your own development in a more effective way.
-
-00:00:06.520 --> 00:00:10.600
-We work to develop ourselves, our team and our culture as well.

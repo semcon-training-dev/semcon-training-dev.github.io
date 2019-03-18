@@ -1,7 +1,0 @@
-﻿WEBVTT
-
-00:00:00.880 --> 00:00:10.420
-  Almost correct but I want to do some small adjustments to your chart...
-
-00:00:10.420 --> 00:00:15.420
-  This of course changes somewhat over the years but gives you an idea of proportions.
