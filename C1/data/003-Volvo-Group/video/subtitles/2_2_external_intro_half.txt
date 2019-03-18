@@ -1,0 +1,46 @@
+﻿WEBVTT
+
+00:00:00.760 --> 00:00:05.880
+  The Volvo Group has over 100 000 employees around the world.
+
+00:00:05.880 --> 00:00:08.760
+  We are a leading manufacturer of:
+
+00:00:08.760 --> 00:00:12.590
+  Trucks, Construction equipment, Buses,
+
+00:00:12.590 --> 00:00:15.390
+  Marine and industrial engines and equipment.
+
+00:00:15.390 --> 00:00:17.690
+  That’s what we make.
+
+00:00:17.690 --> 00:00:22.320
+  You’ve seen our trucks on the road and equipment at building sites.
+
+00:00:22.320 --> 00:00:25.520
+  Chances are you’ve ridden in one of our buses.
+
+00:00:25.520 --> 00:00:31.240
+  The airport or hospital in your community probably has an industrial generator from us,
+
+00:00:31.240 --> 00:00:38.640
+  and if you’ve taken a ferry or a ride on a motor boat it very likely could be our engines powering you forward.
+
+00:00:38.640 --> 00:00:48.370
+  We also provide financial services and in fact many diverse services to help our customers every step of the way.
+
+00:00:48.370 --> 00:00:54.050
+Now you might wonder where we work. The answer is around the world.
+
+00:00:54.050 --> 00:01:01.160
+  We have production facilities in 18 countries and sales in more than 190 countries.
+
+00:01:01.160 --> 00:01:07.810
+  We have offices, research facilities, dealerships and truck centers globally.
+
+00:01:07.810 --> 00:01:15.080
+  Well… now I want to know a little bit more about you: Where in the world are you located?
+
+00:01:15.080 --> 00:01:21.080
+  Please select your location in this list. Press done when you’re ready. 

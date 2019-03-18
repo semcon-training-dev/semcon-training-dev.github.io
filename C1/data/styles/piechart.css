@@ -1,0 +1,11 @@
+#drag-piechart {
+    background-image: url("../004-Volvo-Group/images/piechart.png");
+    background-repeat: no-repeat;
+    left: 5vw;
+}
+
+#drag-country{
+    background-image: url("../004-Volvo-Group/images/2_how_we_are_organised-blurred.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

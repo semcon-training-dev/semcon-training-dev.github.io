@@ -1,0 +1,4 @@
+﻿WEBVTT
+
+00:00:01.100 --> 00:00:06.100
+Right! These are our joint ventures in trucks.

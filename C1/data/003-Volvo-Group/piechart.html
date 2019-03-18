@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/drag-drop-piechart.css">
+
+
+</head>
+
+<body>
+
+
+    <section class="cali-container absolute w100 h100 background-image-area background-top" style="background-image: url('./images/2_how_we_are_organised-blurred.jpg'); background-color: #badce6;"
+        data-california-sub-page="0" data-california-sub-page-keep-open="6">
+
+        <div data-california-sub-page="1" data-california-sub-page-focus="left"></div>
+
+        <div class="drag-drop-area cali-container-panel absolute overflow-hidden sm-w50 sm-h100 sm-right background-image-area"
+            data-resize-to-contain="true" data-california-drag-area="true" data-california-sub-page="2" data-california-sub-page-keep-open="6" data-california-sub-page-focus="right">
+
+            <div class="pie-chart-container cali-container-panel absolute background-image-area" data-resize-to-contain="true" >
+
+            <div class="drop-target" data-california-drop-target="1">
+                <p class="label">
+                    67%
+                </p>
+            </div>
+
+            <div class="drop-target" data-california-drop-target="2">
+                <p class="label">
+                    23%
+                </p>
+            </div>
+
+            <div class="drop-target" data-california-drop-target="3">
+                <p class="label">
+                    3%
+                </p>
+            </div>
+
+            <div class="drop-target" data-california-drop-target="4">
+                <p class="label">
+                    7%
+                </p>
+            </div>
+
+        </div>
+
+            <div class="drag-alternatives">
+                <div class="drag-alternative" data-california-drag-item="2">Construction Equipment</div>
+                <div class="drag-alternative" data-california-drag-item="3">Marine</div>
+                <div class="drag-alternative" data-california-drag-item="1">Trucks</div>
+                <div class="drag-alternative" data-california-drag-item="4">Buses</div>
+            </div>
+
+            <div class="interaction-disabler" data-california-sub-page="2" data-california-sub-page-keep-open="2"></div>
+        </div>
+
+        <button class="continue-button" data-california-quiz-submit="true">
+            <span class="label">
+                Done
+            </span>
+        </button>
+
+        <section data-california-quiz-feedback="correct" class="cali-container-panel top left"
+            data-california-navigation="navtosubpage|4">
+        </section>
+
+        <section data-california-quiz-feedback="incorrect" class="cali-container-panel top left"
+            data-california-navigation="navtosubpage|6" data-auto-correct="true" data-auto-correct-delay="8">
+        </section>
+
+    </section>
+    <div data-california-sub-page="3"></div>
+    <div data-california-sub-page="4"></div>
+    <div data-california-sub-page="5"></div>
+    <div data-california-sub-page="6"></div>
+    <div data-california-sub-page="7"></div>
+
+</body>
+
+</html>

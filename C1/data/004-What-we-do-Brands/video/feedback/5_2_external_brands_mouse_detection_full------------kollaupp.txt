@@ -1,0 +1,7 @@
+﻿WEBVTT
+
+00:00:00.830 --> 00:00:07.110
+  So now you have a good idea what is ahead of you. I hope you’ll find it rewarding and useful!
+
+00:00:07.110 --> 00:00:16.120
+  First, if you haven’t seen the short animated film “The Story of the Volvo Group”, you can start by watching it right here.

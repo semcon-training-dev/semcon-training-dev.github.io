@@ -1,0 +1,4 @@
+﻿WEBVTT
+
+00:00:01.040 --> 00:00:07.550
+Next, let’s have a look at the organisation and how the companies are all set up in the Volvo Group.

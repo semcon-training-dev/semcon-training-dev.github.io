@@ -1,0 +1,574 @@
+.drag-drop-area #house-area {
+    position: absolute;
+    width: 710px;
+    height: 908px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.drag-drop-area .drop-target-area .drop-target {
+    position: absolute;
+    width: 16%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+}
+
+.drag-drop-area .click-area {
+    position: relative;
+    height: 0;
+}
+
+.drag-drop-area .click-area.california-sub-page-active {
+    height: 100%;
+}
+
+.drag-drop-area .click-area .click-target {
+    position: absolute;
+    width: 16%;
+    height: 7%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(1),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(1) {
+    top: 25.5%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(2),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(2) {
+    top: 33.3%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(3),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(3) {
+    top: 41%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(4),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(4) {
+    top: 49%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(5),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(5) {
+    top: 81.5%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(6),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(6) {
+    top: 89.5%;
+    left: 5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(7),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(7) {
+    top: 25.5%;
+    left: 29.5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(8),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(8) {
+    top: 33.3%;
+    left: 29.5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(9),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(9) {
+    top: 41%;
+    left: 29.5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(10),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(10) {
+    top: 49%;
+    left: 29.5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(11),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(11) {
+    top: 81.5%;
+    left: 29.5%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(12),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(12) {
+    top: 25.5%;
+    left: 54%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(13),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(13) {
+    top: 33.3%;
+    left: 54%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(14),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(14) {
+    top: 81.5%;
+    left: 54%;
+}
+
+.drag-drop-area .click-area .click-target:nth-of-type(15),
+.drag-drop-area .drop-target-area .drop-target:nth-of-type(15) {
+    top: 25.5%;
+    left: 79%;
+}
+
+.drag-drop-area .drop-target-area .drop-target.drag-item-over {
+    background-color: #16a6c9;
+}
+
+.drag-drop-area .drag-alternatives {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.drag-drop-area .drag-alternative,
+.drag-drop-area .drag-ghost-item,
+.drag-drop-area .drag-item-placeholder {
+    display: inline-block;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    min-width: 120px;
+    min-height: 80px;
+    max-height: 120px;
+    max-width: 180px;
+    border-radius: 6px;
+    background-color: #edeff5;
+    vertical-align: top;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drag-drop-area .drag-item-placeholder {
+    margin: 1%;
+}
+
+.drag-drop-area .drag-alternative,
+.drag-drop-area .drag-ghost-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.drag-drop-area .drag-alternative .icon,
+.drag-drop-area .drag-ghost-item .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.drag-drop-area .drag-alternative .label,
+.drag-drop-area .drag-ghost-item .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(51, 51, 51, 0.7);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.drag-drop-area .drag-alternative:hover .label {
+    opacity: 1;
+}
+
+.drag-drop-area .drop-target .drag-alternative,
+.drag-drop-area .drop-target .drag-ghost-item {
+    min-width: 0;
+    min-height: 0;
+}
+
+.drag-drop-area .drop-target .drag-alternative .label,
+.drag-drop-area .drop-target .drag-ghost-item .label {
+    display: none;
+}
+
+.drag-drop-area .drag-ghost-item {
+    display: none;
+    opacity: 0.6;
+}
+
+.drag-drop-area .drag-ghost-item.active {
+    display: block;
+}
+
+.drag-drop-area .drag-item-placeholder {
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#cali-app .drag-drop-area .continue-button-conatainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.continue-button,
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.content-continue-button,
+#cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.continue-button.square.active {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+#cali-app .drag-drop-area button.continue-button[data-california-quiz-retry] {
+    right: 280px;
+}
+
+.interaction-disabler {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.brand-info-popup {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .2s ease-in-out, height 0s linear .2s;
+}
+
+.brand-info-popup.active {
+    height: 100%;
+    opacity: 1;
+    transition: opacity .2s ease-in-out, height 0s linear 0s;
+}
+
+.brand-info-popup .brand-info-popup-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.brand-info-popup .brand-info-popup-window {
+    display: table;
+    position: absolute;
+    min-width: 350px;
+    max-width: 650px;
+    min-height: 200px;
+    padding: 60px 30px;
+    top: 50%;
+    left: 50%;
+    background-color: #333;
+    transform: translate(-50%, -50%) scaleY(0);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+    transition: transform .1s ease-in-out .1s;
+}
+
+.brand-info-popup.active .brand-info-popup-window {
+    transform: translate(-50%, -50%) scaleY(1);
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 15px;
+    font-size: 0;
+    line-height: 0;
+    border: 0 solid;
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button:hover {
+    transform: scale(1.2);
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button:before,
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: 13px;
+    left: 1px;
+    background-color: #fff;
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button:before {
+    transform: rotate(45deg);
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-close-button:after {
+    transform: rotate(-45deg);
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-content {
+    max-height: 500px;
+    color: #fff;
+    overflow: auto;
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-content .brand-content {
+    display: none;
+    font-size: 16px;
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-content .brand-content h1 {
+    font-size: 42px;
+    font-family: "VolvoSansRegular";
+    margin: 20px 0;
+    color: #fff;
+}
+
+.brand-info-popup .brand-info-popup-window .brand-info-popup-content .brand-content.active {
+    display: block;
+}
+
+@media screen and (max-width: 376px) {
+    #cali-app .drag-drop-area #house-area {
+        width: 100%;
+        height: 100%;
+    }
+    #cali-app .drag-drop-area>.cali-container-panel.h100:nth-of-type(1) {
+        height: 60% !important;
+        background-image: none !important;
+    }
+    #cali-app .drag-drop-area>.cali-container-panel.h100:nth-of-type(2) {
+        height: 40% !important;
+    }
+    .drag-drop-area .drag-alternatives {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .drag-drop-area .drag-alternative,
+    .drag-drop-area .drag-ghost-item,
+    .drag-drop-area .drag-item-placeholder {
+        flex: 0 1 calc(25% - 4px);
+        height: calc(25% - 4px);
+        min-width: 0;
+        min-height: 0;
+        margin: 1px;
+        border-radius: 0;
+        border-width: 0;
+    }
+    .drag-drop-area .drag-item-placeholder {
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .drag-drop-area .drag-alternative,
+    .drag-drop-area .drag-ghost-item {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .drag-drop-area .drag-alternative .label,
+    .drag-drop-area .drag-ghost-item .label {
+        border-radius: 0;
+    }
+    .drag-drop-area .drag-ghost-item.active {
+        opacity: 1;
+    }
+    .drag-drop-area .drag-ghost-item.active.animated .label {
+        display: flex;
+        opacity: 0;
+    }
+
+    .drag-drop-area .drag-ghost-item.active .label {
+        display: flex;
+        opacity: 1;
+    }
+    #cali-app .drag-drop-area #house-area>div:not(.click-area) {
+        background-color: #333;
+        color: #fff;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(1) {
+        display: none !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(2),
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(3),
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(4),
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(5) {
+        position: absolute;
+        width: 25% !important;
+        height: 40px !important;
+        top: 0 !important;
+        font-size: 10px;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(2) {
+        left: 0 !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(3) {
+        left: 25% !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(4) {
+        left: 50% !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(5) {
+        left: 75% !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(6) {
+        width: 100% !important;
+        height: 20px !important;
+        left: 0 !important;
+        top: 40px !important;
+    }
+    #cali-app .drag-drop-area #house-area>div:nth-of-type(7) {
+        width: 100% !important;
+        height: 20px !important;
+        left: 0 !important;
+        top: calc(65% + 10px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target {
+        width: calc(25% - 2px);
+        height: calc(((100% - 80px) / 6) - 2px);
+        border-radius: 0;
+        border-width: 0;
+        border-color: transparent;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target {
+        width: calc(25% - 2px);
+        height: calc(((100% - 80px) / 6) - 2px);
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(1),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(1) {
+        top: 61px !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(2),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(2) {
+        top: calc(((100% - 80px) / 6) + 61px) !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(3),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(3) {
+        top: calc((((100% - 80px) / 6) * 2) + 61px) !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(4),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(4) {
+        top: calc((((100% - 80px) / 6) * 3) + 61px) !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(5),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(5) {
+        top: calc((((100% - 80px) / 6) * 4) + 81px) !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(6),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(6) {
+        top: calc((((100% - 80px) / 6) * 5) + 81px) !important;
+        left: 1px !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(7),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(7) {
+        top: 61px !important;
+        left: calc(25% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(8),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(8) {
+        top: calc(((100% - 80px) / 6) + 61px) !important;
+        left: calc(25% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(9),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(9) {
+        top: calc((((100% - 80px) / 6) * 2) + 61px) !important;
+        left: calc(25% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(10),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(10) {
+        top: calc((((100% - 80px) / 6) * 3) + 61px) !important;
+        left: calc(25% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(11),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(11) {
+        top: calc((((100% - 80px) / 6) * 4) + 81px) !important;
+        left: calc(25% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(12),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(12) {
+        top: 61px !important;
+        left: calc(50% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(13),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(13) {
+        top: calc(((100% - 80px) / 6) + 61px) !important;
+        left: calc(50% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(14),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(14) {
+        top: calc((((100% - 80px) / 6) * 4) + 81px) !important;
+        left: calc(50% + 1px) !important;
+    }
+    #cali-app .drag-drop-area #house-area>.click-area>.click-target:nth-of-type(15),
+    #cali-app .drag-drop-area #house-area>.drop-target-area>.drop-target:nth-of-type(15) {
+        top: 61px !important;
+        left: calc(75% + 1px) !important;
+    }
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.continue-button,
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.continue-button.square.active,
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.content-continue-button,
+    #cali-app[data-course-id="67b02d1c-0df4-447c-b992-e02cea22b8fd"] .drag-drop-area button.content-continue-button.square.active {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        min-width: 160px;
+        width: 160px;
+    }
+    #cali-app .drag-drop-area button.continue-button[data-california-quiz-retry],
+    #cali-app .drag-drop-area button.content-continue-button[data-california-quiz-retry] {
+        right: 180px;
+    }
+    .brand-info-popup .brand-info-popup-window {
+        top: 0;
+        transform: scale(0);
+        left: 0;
+        max-width: 50%;
+        box-sizing: border-box;
+        margin: auto;
+        height: 100%;
+    }
+    .brand-info-popup.active .brand-info-popup-window {
+        transform: scaleY(1);
+    }
+}

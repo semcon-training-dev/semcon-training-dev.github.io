@@ -1,0 +1,163 @@
+#cali-app section.cali-body {
+    overflow-x: hidden;
+}
+
+#cali-app section.cali-body .cali-component-area {
+    width: 100%;
+}
+
+@media screen and (max-width: 667px) {
+    #cali-app section.cali-body {
+        left: 0;
+        right: 0;
+    }
+    #cali-app section.cali-body .cali-component-area {
+        width: 200%;
+        left: 0;
+        transition: left .5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    #cali-app section.cali-body .cali-component-area {
+        left: 0 !important;
+    }
+}
+
+#cali-app .cali-component-area .cali-component.cali-media.cali-video .media-wrapper video,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video .media-wrapper canvas {
+    transform: translateX(-50%);
+    top: auto;
+    bottom: 0;
+}
+
+#cali-app .cali-body .cali-component-area .cali-component [data-california-show-when-completed] {
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity .3s ease-in-out, max-height 0s linear 0s, max-width 0s linear 0s;
+}
+
+#cali-app .cali-body .cali-component-area .cali-component [data-california-show-when-completed].california-progress-hidden {
+    display: inline-block;
+    opacity: 0;
+    max-width: 0%;
+    max-height: 0%;
+    padding: 0;
+    transition: opacity .3s ease-in-out, max-height 0s linear .3s, max-width 0s linear .3s;
+}
+
+#cali-app .cali-body .cali-component-area .cali-component.cali-html [data-california-sub-page].california-sub-page-active,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing .cali-subtitles,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing .cali-media-controls {
+    visibility: visible;
+    opacity: 1;
+    top: auto;
+    transition: opacity 1s ease-in-out, top 0s linear 0s;
+}
+
+#cali-app .cali-component.cali-html [data-california-sub-page].california-sub-page-hidden,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden .cali-subtitles,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden .cali-media-controls {
+    visibility: visible !important;
+    display: block;
+    opacity: 0;
+    top: -500% !important;
+    transition: opacity 1s ease-in-out, top 0s linear 1s;
+}
+
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing .media-wrapper canvas,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing .cali-subtitles,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-showing .cali-media-controls {
+    transition: opacity .2s ease-in-out, top 0s linear 0s;
+}
+
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-invisible .media-wrapper canvas,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden .cali-subtitles,
+#cali-app .cali-component-area .cali-component.cali-media.cali-video.cali-media-hidden .cali-media-controls {
+    transition: opacity .2s ease-in-out, top 0s linear .2s;
+}
+
+.large-screen-title {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: "VolvoSansLight";
+    font-weight: normal;
+    color: #333;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.large-screen-title.white {
+    color: white;
+}
+
+.medium-screen-title {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "VolvoSansRegular";
+    font-weight: normal;
+    color: #333;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.medium-screen-title.white {
+    color: white;
+}
+
+p {
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p,
+li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.large-screen-title.center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    overflow: visible;
+}
+
+.flex-container>div {
+    flex: 0 0 auto;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 667px) {
+    .large-screen-title {
+        font-size: 42px;
+        margin-bottom: 16px;
+    }
+    .medium-screen-title {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: "VolvoSansRegular";
+        font-weight: normal;
+        color: #333;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
