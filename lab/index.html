@@ -1413,11 +1413,17 @@ if (reversed == null) { reversed = false; }
 							//console.log('serialAccum: ' + serialAccum);
 						}
 					}
-					preRes = voltGrid[p.y][p.x] > -9 && decrease == 0 ? (voltsIn - voltGrid[p.y][p.x]) : 0;
-					voltGrid[p.y][p.x] = Math.max(v - (decrease + preRes), 0);
+					preRes = voltGrid[p.y][p.x] > -9 && decrease == 0 ? (voltsIn - voltGrid[p.y][p.x]) : preRes;
+					if (voltGrid[p.y][p.x] < 1) {
+						voltGrid[p.y][p.x] = Math.max(v - (decrease + preRes), 0);
+					} else {
+						voltGrid[p.y][p.x] = Math.min(v - (decrease + preRes), voltGrid[p.y][p.x]);
+					}
 				}
 				//_drawGrid(voltGrid);
+			console.table(voltGrid);
 			}
+		console.log("***********************")
 			if (i_startEnd) {
 				voltGrid[currentPoints.start.y][currentPoints.start.x] = voltsIn;
 				voltGrid[currentPoints.end.y][currentPoints.end.x] = 0;
@@ -1506,8 +1512,6 @@ if (reversed == null) { reversed = false; }
 				start: batteryCircuitPoints.start,
 				end: mPoints.end
 			});
-			//console.log("voltToStart", voltToStart)
-			//console.log("voltToEnd", voltToEnd)
 			if (paths.length < 1 && voltToStart.length > 0 && voltToEnd.length == 0) {
 				voltDrop = voltsIn;
 			} else {
@@ -1565,7 +1569,7 @@ if (reversed == null) { reversed = false; }
 			var closed = noJumps.length == mPointCircs.length;
 			var jumpRes = calcTotalResistance(findPaths(mPoints)).total;
 			var amps = calcAmps(ampGridObj.paths, ampGridObj.grid, mPoints);
-			console.log(ampGridObj)
+			//console.log(ampGridObj)
 			if (amps) amps = amps.index == 0 ? amps.total : amps.circuit;
 			if (amps && mPointCircs.length > 0) {
 				if ((closed && jumpRes == 0)) ampText = '0 A';
@@ -1628,7 +1632,7 @@ if (reversed == null) { reversed = false; }
 							isOn = true;
 							var markWatt = parseInt(drop.occypiedBy.lamp_text.text);
 							var isFullcapacity = drop.occypiedBy.resistance.toFixed(1) / 1 <= ((voltsIn * voltsIn) / markWatt).toFixed(1) / 1;
-							console.log(drop.occypiedBy.name, voltsBeforeLamp, voltsAfterLamp)
+							//console.log(drop.occypiedBy.name, voltsBeforeLamp, voltsAfterLamp)
 							if (r > drop.occypiedBy.resistance || !isFullcapacity) {
 								drop.occypiedBy.gotoAndStop('weak');
 							} else if ((voltsBeforeLamp + voltsAfterLamp > 0) && activeLamps.indexOf(drop.occypiedBy.name) == -1) {
