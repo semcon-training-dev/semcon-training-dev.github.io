@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+
+CREATED BY FUNKIS MULTIMEDIA AB                     http://funkismultimedia.se
+
+============================================================================ -->
+<content>
+  <!-- =================== INTERFACE ============================ -->
+  <part id="interface">
+    <txt id="video_waiting"><![CDATA[正在等待视频...]]></txt>
+    <txt id="project_name"><![CDATA[沃尔沃测验]]></txt>
+    <part id="tooltip">
+      <txt id="play_pause_button"><![CDATA[切换播放/暂停]]></txt>
+      <txt id="replay_button"><![CDATA[重新播放视频]]></txt>
+      <txt id="skip_button"><![CDATA[转到视频结尾]]></txt>
+
+    </part>
+    <!-- Start of quiz -->
+    <part id="quiz">
+      <part id="intro">
+        <txt id="header_text"><![CDATA[您对我们公司<br>了解多少？]]></txt>
+        <txt id="subheader_text"><![CDATA[这次竞赛有各种与沃尔沃相关的棘手难题。您将看到10个问题。<br>每一题有4个可能的答案。您需要选择正确的答案。<br>别忘了，您回答得越快，得分就越高！]]></txt>
+        <txt id="startbutton_text"><![CDATA[开始测验！]]></txt>
+      </part>
+
+      <part id="high_score">
+        <txt id="your_score_text"><![CDATA[您的得分]]></txt>
+        <txt id="highest_score_text"><![CDATA[您的最高得分]]></txt>
+      </part>
+
+      <part id="outro">
+        <txt id="header_text"><![CDATA[做得好！]]></txt>
+        <txt id="subheader_text"><![CDATA[想再来一次？]]></txt>
+        <txt id="restartbutton_text"><![CDATA[重新开始测验！]]></txt>
+      </part>
+
+      <part id="quiz_questions">
+
+        <!-- <part id="quiz_question_1">
+          <txt id="question_primary_text"><![CDATA[我们拥有哪三个建筑设备品牌？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG、特雷克斯卡车和沃尔沃]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG、Prevost和迈克]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[沃尔沃、Prevost和埃契]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[迈克、埃契和沃尔沃]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_2">
+          <txt id="question_primary_text"><![CDATA[我们在多少个国家/地区设有生产工厂？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[25个国家/地区]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[18个国家/地区]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[12个国家/地区]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[35个国家/地区]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_3">
+          <txt id="question_primary_text"><![CDATA[我们在大约多少个国家/地区开展业务？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[180个国家/地区]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[175个国家/地区]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[190个国家/地区]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[220个国家/地区]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_4">
+          <txt id="question_primary_text"><![CDATA[产品、服务和金融服务的销售份额分别为多少？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[75%、21%、4%]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[90%、15%、5%]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[50%、30%、20%]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[80%、10%、10%]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_5">
+          <txt id="question_primary_text"><![CDATA[我们的使命是什么？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[推动世界发展]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[锐意创新]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[以运输解决方案推动社会繁荣]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[推广可持续性运输解决方案]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_6">
+          <txt id="question_primary_text"><![CDATA[在我们的组织中，GTT代表什么？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[集团卡车运输解决方案]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Group Trucks Technology]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[集团技术转移]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[集团运输技术]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_7">
+          <txt id="question_primary_text"><![CDATA[对我们来说，CSR是个重要领域。CSR是指...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[企业科学审查]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[公司无缝响应能力]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[企业社会责任]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[公司实力和响应能力]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_8">
+          <txt id="question_primary_text"><![CDATA[什么是软产品？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[我们所提供的IT解决方案]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[我们所提供的所有服务]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[除了实际车辆或发动机以外的一切事物]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[内部设计文章]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_9">
+          <txt id="question_primary_text"><![CDATA[沃尔沃集团有多少名员工？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[大约40,000]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[大约50,000]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[大约75,000]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[大约100,000]]></txt>
+          </part>
+        </part>
+
+
+        <part id="quiz_question_10">
+          <txt id="question_primary_text"><![CDATA[我们的名称“沃尔沃”寓意着什么？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[滚滚向前]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[奔流不息]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[移动不止]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[不停转圈]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_11">
+          <txt id="question_primary_text"><![CDATA[沃尔沃将何时迎来100周年庆？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[2021年]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[2027年]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[2031年]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[2042年]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_12">
+          <txt id="question_primary_text"><![CDATA[我们的客户大部分是…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[自营业主]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[大型车队]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[小型车队]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[小型现代家族企业公司]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_13">
+          <txt id="question_primary_text"><![CDATA[沃尔沃集团及其附属公司的产品供应涉及多少个品牌？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[20-25个品牌]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[10-15个品牌]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[5-10个品牌]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[3-5个品牌]]></txt>
+          </part>
+        </part> -->
+
+        <!-- <part id="quiz_question_14">
+          <txt id="question_primary_text"><![CDATA[我们在建筑设备领域拥有不止一个品牌，它们分别是什么？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG、特雷克斯卡车和沃尔沃]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG和Prevost]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Prevost和埃契]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[埃契和沃尔沃]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_15">
+          <txt id="question_primary_text"><![CDATA[如果动用我们所有的客车，可以搭乘多少人？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[五十万]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[一百万]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[一千万]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[五千万]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_16">
+          <txt id="question_primary_text"><![CDATA[客户成功、相互信任、充满激情、勇于变革和绩效卓越属于...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[我们的价值观]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[我们的愿景]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[我们的商德守则]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[我们的使命]]></txt>
+          </part>
+        </part>
+        <!-- more questions here -->
+      </part>
+    </part>
+    <!-- END of quiz -->
+  </part>
+</content>

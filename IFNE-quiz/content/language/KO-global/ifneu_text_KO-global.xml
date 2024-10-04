@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+
+  CREATED BY FUNKIS MULTIMEDIA AB                     http://funkismultimedia.se
+
+============================================================================ -->
+<content>
+  <!-- =================== INTERFACE ============================ -->
+  <part id="interface">
+    <txt id="video_waiting"><![CDATA[동영상 대기 중...]]></txt>
+    <txt id="project_name"><![CDATA[볼보 퀴즈]]></txt>
+    <part id="tooltip">
+      <txt id="play_pause_button"><![CDATA[재생/중지 전환]]></txt>
+      <txt id="replay_button"><![CDATA[동영상 다시 재생]]></txt>
+      <txt id="skip_button"><![CDATA[동영상 끝으로 이동]]></txt>
+
+    </part>
+    <!-- Start of quiz -->
+    <part id="quiz">
+      <part id="intro">
+        <txt id="header_text"><![CDATA[우리 회사에 대해 <br>알고 계십니까?]]></txt>
+        <txt id="subheader_text"><![CDATA[이 경쟁은 Volvo에 대한 까다로운 질문들로 채워져 있습니다. 10개의 질문이 있습니다. <br>네 개의 가능한 답이 있습니다. 옳다고 생각하는 답을 고르세요. <br>옳다고 생각하는 답을 고르세요. 더 빨리 답할수록 더 높은 점수를 받을 수 있습니다.]]></txt>
+        <txt id="startbutton_text"><![CDATA[퀴즈 시작하기]]></txt>
+      </part>
+
+      <part id="high_score">
+        <txt id="your_score_text"><![CDATA[점수:]]></txt>
+        <txt id="highest_score_text"><![CDATA[최고 점수:]]></txt>
+      </part>
+
+      <part id="outro">
+        <txt id="header_text"><![CDATA[재생되었습니다!]]></txt>
+        <txt id="subheader_text"><![CDATA[다시 재생하시겠습니까?]]></txt>
+        <txt id="restartbutton_text"><![CDATA[퀴즈 다시 시작하기]]></txt>
+      </part>
+
+      <part id="quiz_questions">
+
+        <!-- <part id="quiz_question_1">
+          <txt id="question_primary_text"><![CDATA[Volvo Group의 건설기계 부문에는 세 개의 브랜드가 있는데, 무엇입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex 트럭 및 볼보]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG, Prevost 및 Mack]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[볼보, Prevost 및 Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Mack, Eicher 및 볼보]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_2">
+          <txt id="question_primary_text"><![CDATA[우리는 몇 개 국가에 생산 시설을 갖고 있습니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[25개 국가]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[18개 국가]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[12개 국가]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[35개 국가]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_3">
+          <txt id="question_primary_text"><![CDATA[우리는 약 몇 개 국가를 대상으로 영업을 하고 있습니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[180개 국가]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[175개 국가]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[190개 국가]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[220개 국가]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_4">
+          <txt id="question_primary_text"><![CDATA[볼보의 판매는 제품, 서비스 및 금융 서비스로 어떻게 구분됩니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[75%, 21%, 4%]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[90%, 15%, 5%]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[50%, 30%, 20%]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[80%, 10%, 10%]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_5">
+          <txt id="question_primary_text"><![CDATA[볼보의 미션은 무엇입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[우리의 세상을 전진시킴]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[혁신 추진]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[운송 솔루션을 통한 번영 추구]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[지속 가능한 운송 솔루션]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_6">
+          <txt id="question_primary_text"><![CDATA[우리 조직에서 GTT란 무엇의 약자입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Group Trucks Transport(그룹 트럭 운송) 솔루션]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[그룹 트럭 기술]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Group Technology Transfer(그룹 기술 이전)]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Group Transport Technology(그룹 운송 기술)]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_7">
+          <txt id="question_primary_text"><![CDATA[CSR은 우리에게 중요한 분야입니다. CSR란...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[기업의 과학적 검토]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[기업의 매끄러운 대응성]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[기업의 사회적 책임]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[기업의 강점 및 대응성]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_8">
+          <txt id="question_primary_text"><![CDATA[소프트 제품이란 무엇입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[우리가 제공하는 IT 솔루션]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[우리가 제공하는 모든 서비스]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[실제 차량 또는 엔진이 아닌 모든 것]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[내부 설계 작품]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_9">
+          <txt id="question_primary_text"><![CDATA[볼보 그룹의 직원 수는 몇 명입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[약 40,000명]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[약 50,000명]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[약 75,000명]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[약 100,000명]]></txt>
+          </part>
+        </part>
+
+
+        <part id="quiz_question_10">
+          <txt id="question_primary_text"><![CDATA[볼보라는 이름의 의미는 무엇입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[나는 굴러가고 있다]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[나는 흐르고 있다]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[나는 움직이고 있다]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[나는 돌고 있다]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_11">
+          <txt id="question_primary_text"><![CDATA[볼보의 탄생 100주년은 언제입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[2021년]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[2027년]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[2031년]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[2042년]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_12">
+          <txt id="question_primary_text"><![CDATA[고객 비즈니스의 대부분은…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[트럭 오너]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[대형 플리트]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[소형 플리트]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[소규모 현대 가족 기업]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_13">
+          <txt id="question_primary_text"><![CDATA[볼보 그룹 및 계열사 제품 제공에는 몇 개의 브랜드가 관련되어 있습니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[20-25가지 브랜드]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[10-15가지 브랜드]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[5-10가지 브랜드]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[3-5가지 브랜드]]></txt>
+          </part>
+        </part> -->
+
+        <!-- <part id="quiz_question_14">
+          <txt id="question_primary_text"><![CDATA[볼보 그룹의 건설기계 부문에는 두 개 이상의 브랜드가 있는데, 무엇입니까?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex 트럭 및 볼보]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG 및 Prevost]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Prevost 및 Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Eicher 및 볼보]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_15">
+          <txt id="question_primary_text"><![CDATA[우리 버스 모두가 동시에 출발한다면 몇 명의 사람들이 탈 수 있을까요?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[50만 명]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[100만 명]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[1,000만 명]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[5,000만 명]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_16">
+          <txt id="question_primary_text"><![CDATA[고객 성공, 신뢰, 열정, 변화, 성과란...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[볼보의 가치]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[볼보의 비전]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Volvo의 행동 강령]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[볼보의 미션]]></txt>
+          </part>
+        </part>
+        <!-- more questions here -->
+      </part>
+    </part>
+    <!-- END of quiz -->
+  </part>
+</content>

@@ -1,0 +1,27 @@
+{
+	"name": "Introduction for new employees - Quiz",
+	"version": "0.9.1",
+	"devMode": false,
+	"showInspector": false,
+	"projectPrefix": "ifneu",
+	"language": "en-global",
+	"quality": "high",
+	"storage": "local",
+	"paths": {
+		"contentPath": "content/",
+		"mediaPath": "content/media/",
+		"imagePath": "content/media/images/",
+		"languagePath": "content/language/",
+		"interfacePath": "content/media/interfaces/"
+	},
+	"installedLanguages": [
+		"en-global"
+	],
+	"stage": {
+		"maxWidth": 975,
+		"minWidth": 975,
+		"maxHeight": 584,
+		"minHeight": 584
+	},
+	"shouldMuteQuiz": false
+}

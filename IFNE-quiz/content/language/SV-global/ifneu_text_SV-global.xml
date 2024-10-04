@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+
+  CREATED BY FUNKIS MULTIMEDIA AB                     http://funkismultimedia.se
+
+============================================================================ -->
+<content>
+  <!-- =================== INTERFACE ============================ -->
+  <part id="interface">
+    <txt id="video_waiting"><![CDATA[Videon väntar…]]></txt>
+    <txt id="project_name"><![CDATA[Volvos frågetest]]></txt>
+    <part id="tooltip">
+      <txt id="play_pause_button"><![CDATA[Spela upp/pausa]]></txt>
+      <txt id="replay_button"><![CDATA[Spela upp videon igen]]></txt>
+      <txt id="skip_button"><![CDATA[Gå till slutet av videon]]></txt>
+
+    </part>
+    <!-- Start of quiz -->
+    <part id="quiz">
+      <part id="intro">
+        <txt id="header_text"><![CDATA[VAD VET DU OM <br>VÅRT FÖRETAG?]]></txt>
+        <txt id="subheader_text"><![CDATA[Du kommer att få svara på svåra frågor om Volvo. Du kommer att få 10 frågor. <br>Det finns fyra svarsalternativ. Nu är det dags att visa dina kunskaper. <br>Och ju snabbare du svarar, desto fler poäng får du!]]></txt>
+        <txt id="startbutton_text"><![CDATA[Starta quizen!]]></txt>
+      </part>
+
+      <part id="high_score">
+        <txt id="your_score_text"><![CDATA[Din poäng]]></txt>
+        <txt id="highest_score_text"><![CDATA[Din högsta poäng]]></txt>
+      </part>
+
+      <part id="outro">
+        <txt id="header_text"><![CDATA[Bra kämpat!]]></txt>
+        <txt id="subheader_text"><![CDATA[Vill du göra testet en gång till?]]></txt>
+        <txt id="restartbutton_text"><![CDATA[Starta om frågetestet!]]></txt>
+      </part>
+
+      <part id="quiz_questions">
+
+        <!-- <part id="quiz_question_1">
+          <txt id="question_primary_text"><![CDATA[Vilka tre varumärken har vi inom anläggningsmaskiner?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex Trucks och Volvo]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG, Prevost och Mack]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Volvo, Prevost och Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Mack, Eicher och Volvo]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_2">
+          <txt id="question_primary_text"><![CDATA[Hur många länder har vi produktionsanläggningar i?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[25 länder]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[18 länder]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[12 länder]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[35 länder]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_3">
+          <txt id="question_primary_text"><![CDATA[Ungefär hur många länder finns vi representerade i?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[180 länder]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[175 länder]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[190 länder]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[220 länder]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_4">
+          <txt id="question_primary_text"><![CDATA[Hur är vår försäljning uppdelad i produkter, tjänster och finansiella tjänster?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[75%, 21% resp. 4%]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[90%, 15% resp. 5%]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[50%, 30% resp. 20%]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[80%, 10% resp. 10%]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_5">
+          <txt id="question_primary_text"><![CDATA[Vad är vår mission?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Att ta vår värld framåt]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Att driva innovation]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Bidra till ökat välstånd med våra transportlösningar]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Främja hållbara transportlösningar]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_6">
+          <txt id="question_primary_text"><![CDATA[Vad står GTT för i vår organisation?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Group Trucks Transport solutions]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Group Trucks Technology]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Group Technology Transfer]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Group Transport Technology]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_7">
+          <txt id="question_primary_text"><![CDATA[CSR är viktigt för oss. CSR innebär…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Corporate Scientific Review]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Company Seamless Responsiveness]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Corporate Social Responsibility]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Company Strength and Responsiveness]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_8">
+          <txt id="question_primary_text"><![CDATA[Vad är ”mjuka” produkter?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[IT-lösningar vi erbjuder]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Alla tjänster vi erbjuder]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Allt som inte är ett fordon eller en motor]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Interna konstruktionsprodukter]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_9">
+          <txt id="question_primary_text"><![CDATA[Hur många anställda har Volvokoncernen?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Cirka 40000]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Cirka 50000]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Cirka 75000]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Cirka 100000]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_10">
+          <txt id="question_primary_text"><![CDATA[Vad betyder namnet Volvo?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Jag rullar]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Jag flyter]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Jag rör mig]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Jag cirkulerar]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_11">
+          <txt id="question_primary_text"><![CDATA[När kommer Volvo att fira sitt 100-årsjubileum?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[2021]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[2027]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[2031]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[2042]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_12">
+          <txt id="question_primary_text"><![CDATA[Majoriteten av våra kunders företag är…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Enbilsåkare]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Stora vagnparker]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Små vagnparker]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Små moderna familjeföretag]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_13">
+          <txt id="question_primary_text"><![CDATA[Hur många varumärken finns i Volvokoncernens och våra närstående bolags produktutbud?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[20–25 varumärken]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[10–15 varumärken]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[5–10 varumärken]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[3–5 varumärken]]></txt>
+          </part>
+        </part> -->
+
+        <!-- <part id="quiz_question_14">
+          <txt id="question_primary_text"><![CDATA[Vi har fler än ett varumärke för anläggningsmaskiner. Vilka är dessa varumärken?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex Trucks och Volvo]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG och Prevost]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Prevost och Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Eicher och Volvo]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_15">
+          <txt id="question_primary_text"><![CDATA[Hur många skulle kunna åka med om vi startade alla våra bussar samtidigt?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Femhundratusen]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[1 miljon]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Tio miljoner]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Femtio miljoner]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_16">
+          <txt id="question_primary_text"><![CDATA[Framgång för kunden, tillit, passion, förändring och prestation utgör…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Våra värderingar]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Vår vision]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Vår uppförandekod]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Vår mission]]></txt>
+          </part>
+        </part>
+        <!-- more questions here -->
+      </part>
+    </part>
+    <!-- END of quiz -->
+  </part>
+</content>

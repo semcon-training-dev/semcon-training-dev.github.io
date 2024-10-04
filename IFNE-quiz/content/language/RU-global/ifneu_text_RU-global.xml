@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+
+  CREATED BY FUNKIS MULTIMEDIA AB                     http://funkismultimedia.se
+
+============================================================================ -->
+<content>
+  <!-- =================== INTERFACE ============================ -->
+  <part id="interface">
+    <txt id="video_waiting"><![CDATA[Загружаем видео...]]></txt>
+    <txt id="project_name"><![CDATA[Тест Volvo]]></txt>
+    <part id="tooltip">
+      <txt id="play_pause_button"><![CDATA[Пауза/воспроизведение]]></txt>
+      <txt id="replay_button"><![CDATA[Смотреть снова]]></txt>
+      <txt id="skip_button"><![CDATA[Перейти в конец видео]]></txt>
+
+    </part>
+    <!-- Start of quiz -->
+    <part id="quiz">
+      <part id="intro">
+        <txt id="header_text"><![CDATA[ЧТО ВЫ ЗНАЕТЕ <br>О НАШЕЙ КОМПАНИИ?]]></txt>
+        <txt id="subheader_text"><![CDATA[Тест состоит из нелегких вопросов, касающихся Volvo. Вам предстоит ответить на 10 вопросов. <br>Доступно четыре возможных варианта ответа. Нужно выбрать правильный ответ. <br>И помните: чем быстрее вы отвечаете, тем больше очков зарабатываете!]]></txt>
+        <txt id="startbutton_text"><![CDATA[Начать тест]]></txt>
+      </part>
+
+      <part id="high_score">
+        <txt id="your_score_text"><![CDATA[Ваш результат]]></txt>
+        <txt id="highest_score_text"><![CDATA[Ваш максимальный результат]]></txt>
+      </part>
+
+      <part id="outro">
+        <txt id="header_text"><![CDATA[Отлично сработано!]]></txt>
+        <txt id="subheader_text"><![CDATA[Хотите сыграть снова?]]></txt>
+        <txt id="restartbutton_text"><![CDATA[Запустить тест еще раз]]></txt>
+      </part>
+
+      <part id="quiz_questions">
+
+        <!-- <part id="quiz_question_1">
+          <txt id="question_primary_text"><![CDATA[В строительном секторе работает три наши компании, назовите их.]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex Trucks и Volvo]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG, Prevost и Mack]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Volvo, Prevost и Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Mack, Eicher и Volvo]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_2">
+          <txt id="question_primary_text"><![CDATA[Сколько вы знаете стран, в которых есть наше производство?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[25 стран]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[18 стран]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[12 стран]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[35 стран]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_3">
+          <txt id="question_primary_text"><![CDATA[Сколько вы знаете стран (приблизительно), в которых находятся наши представительства?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[180 стран]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[175 стран]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[190 стран]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[220 стран]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_4">
+          <txt id="question_primary_text"><![CDATA[Как наши продажи распределяются по продуктам, сервисам и финансовым услугам?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[75%, 21%, 4%]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[90%, 15%, 5%]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[50%, 30%, 20%]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[80%, 10%, 10%]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_5">
+          <txt id="question_primary_text"><![CDATA[Какова наша миссия?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Развитие нашего мира]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Внедрение инноваций]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Способствовать экономическому процветанию, предлагая транспортные решения]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Продвижение экологичных коммерческих транспортных решений]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_6">
+          <txt id="question_primary_text"><![CDATA[Что значит аббревиатура «GTT», используемая в нашей организации?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Решения Group Trucks Transport]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Group Trucks Technology]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Group Technology Transfer]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Group Transport Technology]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_7">
+          <txt id="question_primary_text"><![CDATA[Направление CSR является очень важным для нас. CSR расшифровывается как...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Corporate Scientific Review (корпоративный научный обзор)]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Company Seamless Responsiveness (эффективное реагирование компании)]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Корпоративная социальная ответственность]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Company Strength and Responsiveness (сила и ответственность компании)]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_8">
+          <txt id="question_primary_text"><![CDATA[Что такое сервисные продукты (soft products)?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Предлагаемые нами IT решения]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Все предлагаемые нами услуги]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Все, что не является транспортным средством или его компонентами (например, двигатель)]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Статьи по внутренней конструкции]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_9">
+          <txt id="question_primary_text"><![CDATA[Сколько сотрудников насчитывает Volvo Group?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Около 40000]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Около 50000]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Около 75000]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Около 100000]]></txt>
+          </part>
+        </part>
+
+
+        <part id="quiz_question_10">
+          <txt id="question_primary_text"><![CDATA[Что означает название Volvo?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Я качусь]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Я движусь в потоке]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Я двигаюсь]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Я вращаюсь]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_11">
+          <txt id="question_primary_text"><![CDATA[Когда у Volvo 100-летний юбилей?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[В 2021году]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[В 2027году]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[В 2031году]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[В 2042году]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_12">
+          <txt id="question_primary_text"><![CDATA[Большая часть наших клиентов— это...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Собственники / владельцы компании перевозчика]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Большие автопарки]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Небольшие автопарки]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Небольшой современный семейный бизнес]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_13">
+          <txt id="question_primary_text"><![CDATA[Сколько брендов предлагают Volvo Group и дочерние компании?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[20−25 брендов]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[10−15 брендов]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[5−10 брендов]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[3−5 брендов]]></txt>
+          </part>
+        </part> -->
+
+        <!-- <part id="quiz_question_14">
+          <txt id="question_primary_text"><![CDATA[У нас есть несколько брендов в сегменте дорожно-строительной техники. Назовите их.]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG, Terex Trucks и Volvo]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG и Prevost]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Prevost и Eicher]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Eicher и Volvo]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_15">
+          <txt id="question_primary_text"><![CDATA[Если бы все наши автобусы выехали одновременно, сколько пассажиров они могли бы перевезти?]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[500000]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Миллион]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[10000000]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[50000000]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_16">
+          <txt id="question_primary_text"><![CDATA[Успех клиентов, доверие, увлеченность, перемены и производительность—]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Наши ценности]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Наше видение]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[Наш Кодекс этики]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Наша миссия]]></txt>
+          </part>
+        </part>
+        <!-- more questions here -->
+      </part>
+    </part>
+    <!-- END of quiz -->
+  </part>
+</content>

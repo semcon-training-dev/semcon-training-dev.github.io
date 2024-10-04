@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+
+CREATED BY FUNKIS MULTIMEDIA AB                     http://funkismultimedia.se
+
+============================================================================ -->
+<content>
+  <!-- =================== INTERFACE ============================ -->
+  <part id="interface">
+    <txt id="video_waiting"><![CDATA[ビデオ待機中...]]></txt>
+    <txt id="project_name"><![CDATA[ボルボ・クイズ]]></txt>
+    <part id="tooltip">
+      <txt id="play_pause_button"><![CDATA[再生／一時停止を切り替える]]></txt>
+      <txt id="replay_button"><![CDATA[ビデオをもう一度再生する]]></txt>
+      <txt id="skip_button"><![CDATA[ビデオの最後に移動する]]></txt>
+
+    </part>
+    <!-- Start of quiz -->
+    <part id="quiz">
+      <part id="intro">
+        <txt id="header_text"><![CDATA[弊社について知っていることは<br>何でしょう？]]></txt>
+        <txt id="subheader_text"><![CDATA[このコンペティションにはボルボについての難しい質問が含まれています。質問は全部で10個あります。<br>4つの回答の選択肢があります。正しいと思うものを選択してください。<br>迅速に答えるほど、スコアが高くなります。]]></txt>
+        <txt id="startbutton_text"><![CDATA[クイズを開始する]]></txt>
+      </part>
+
+      <part id="high_score">
+        <txt id="your_score_text"><![CDATA[あなたのスコア]]></txt>
+        <txt id="highest_score_text"><![CDATA[あなたの最高スコア]]></txt>
+      </part>
+
+      <part id="outro">
+        <txt id="header_text"><![CDATA[素晴らしい出来です！]]></txt>
+        <txt id="subheader_text"><![CDATA[もう一度再生しますか？]]></txt>
+        <txt id="restartbutton_text"><![CDATA[クイズを再開しましょう！]]></txt>
+      </part>
+
+      <part id="quiz_questions">
+
+        <!-- <part id="quiz_question_1">
+          <txt id="question_primary_text"><![CDATA[ボルボ・グループの建設機械には3つのブランドがあります。どの組合せですか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG、テレックス・トラック、ボルボ]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLG、プレボおよびマック]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[ボルボ、プレボおよびアイシャー]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[マック、アイシャーおよびボルボ]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_2">
+          <txt id="question_primary_text"><![CDATA[ボルボ・グループは何か国に生産施設を持っていますか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[25か国]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[18か国]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[12か国]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[35か国]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_3">
+          <txt id="question_primary_text"><![CDATA[約何か国にボルボ・グループの販売拠点がありますか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[180か国]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[175か国]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[190か国]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[220か国]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_4">
+          <txt id="question_primary_text"><![CDATA[私たちの売上に占める製品売上、サービス売上および金融サービス売上の比率は？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[75%、21%、4%]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[90%、15%、5%]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[50%、30%、20%]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[80%、10%、10%]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_5">
+          <txt id="question_primary_text"><![CDATA[私たちのミッション（使命）は？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[私たちの取組みを前進させること]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[技術革新の推進]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[輸送ソリューションを通じて豊かな社会づくりに貢献すること]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[持続可能な輸送ソリューションを推進すること]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_6">
+          <txt id="question_primary_text"><![CDATA[私たちの組織内でGTTは何を表しますか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[グループ・トラックス・トランスポート・ソリューション]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Group Trucks Technology]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[グループ・テクノロジー・トランスファー]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[グループ・トランスポート・テクノロジー]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_7">
+          <txt id="question_primary_text"><![CDATA[CSRは私たちにとって重要な分野です。CSRとは...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[Corporate Scientific Review]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[Company Seamless Responsiveness]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[企業の社会的責任]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[Company Strength and Responsiveness]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_8">
+          <txt id="question_primary_text"><![CDATA[ソフト商品とは何ですか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[ボルボ・グループが提供するITソリューション]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[ボルボ・グループが提供するすべてのサービス]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[実際の車両またはエンジン以外のすべてのもの]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[内部の設計資料]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_10">
+          <txt id="question_primary_text"><![CDATA[私たちの社名である「ボルボ」の意味は？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[私は転がる]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[私は流れる]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[私は動く]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[私は回る]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_11">
+          <txt id="question_primary_text"><![CDATA[ボルボの100周年に当たる年は？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[2021年]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[2027年]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[2031年]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[2042年]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_12">
+          <txt id="question_primary_text"><![CDATA[私たちの大半のお客様の業態は…]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[事業主]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[大規模フリート・オーナー]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[小規模フリート･オーナー]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[小規模でモダンな同族会社]]></txt>
+          </part>
+        </part>
+
+        <!-- <part id="quiz_question_13">
+          <txt id="question_primary_text"><![CDATA[ボルボ・グループおよび関連会社が販売している製品のブランド数は？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[20から25ブランド]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[10から15ブランド]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[5から10ブランド]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[3から5ブランド]]></txt>
+          </part>
+        </part> -->
+
+        <!-- <part id="quiz_question_14">
+          <txt id="question_primary_text"><![CDATA[私たちの建設機械には複数のブランドがありますが、その組合せは次のうちどれでしょう？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[SDLG、テレックス・トラック、ボルボ]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[SDLGとプレボ]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[プレボとアイシャー]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[アイシャーとボルボ]]></txt>
+          </part>
+        </part> -->
+
+        <part id="quiz_question_15">
+          <txt id="question_primary_text"><![CDATA[もしも存在するすべてのボルボのバスが同時に走ったら、何人が乗れますか？]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[50万人]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[100万人]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[1,000万人]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[5,000万人]]></txt>
+          </part>
+        </part>
+
+        <part id="quiz_question_16">
+          <txt id="question_primary_text"><![CDATA[カスタマー・サクセス（お客様の成功）、トラスト（信頼）、パッション（情熱）、チェンジ（変革）およびパフォーマンス（成果）は...]]></txt>
+          <txt id="question_secondary_text"><![CDATA[]]></txt>
+
+          <part id="question_alternatives">
+            <txt id="question_alternative_1_text"><![CDATA[私たちのバリュー（企業価値）]]></txt>
+            <txt id="question_alternative_2_text"><![CDATA[私たちのビジョン（未来像）]]></txt>
+            <txt id="question_alternative_3_text"><![CDATA[私たちの行動規範]]></txt>
+            <txt id="question_alternative_4_text"><![CDATA[私たちのミッション（使命）]]></txt>
+          </part>
+        </part>
+        <!-- more questions here -->
+      </part>
+    </part>
+    <!-- END of quiz -->
+  </part>
+</content>

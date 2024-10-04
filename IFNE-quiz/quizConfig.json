@@ -1,0 +1,28 @@
+{
+  "timeLimitPerQuestionInSeconds": 20,
+  "questionsPerRound": 12,
+  "choiceAlternativeDelayInSeconds": 3,
+  "correctChoiceAlternatives": [
+    { "id": "quiz_question_2", "correctAlternativeIndex": 1 },
+    { "id": "quiz_question_3", "correctAlternativeIndex": 2 },
+    { "id": "quiz_question_5", "correctAlternativeIndex": 2 },
+    { "id": "quiz_question_6", "correctAlternativeIndex": 1 },
+    { "id": "quiz_question_7", "correctAlternativeIndex": 2 },
+    { "id": "quiz_question_8", "correctAlternativeIndex": 2 },
+    { "id": "quiz_question_9", "correctAlternativeIndex": 3 },
+    { "id": "quiz_question_10", "correctAlternativeIndex": 0 },
+    { "id": "quiz_question_11", "correctAlternativeIndex": 1 },
+    { "id": "quiz_question_12", "correctAlternativeIndex": 0 },
+    { "id": "quiz_question_15", "correctAlternativeIndex": 2 },
+    { "id": "quiz_question_16", "correctAlternativeIndex": 0 }
+  ],
+  "gameSoundIdsByEvent": {
+    "startAndRestartRoundClick": "startAndRestartRoundClick",
+    "wrongAnswer": "wrongAnswer",
+    "rightAnswer": "rightAnswer",
+    "choiceAlternativesAppear": "choiceAlternativesAppear",
+    "largeHighScoreAppears": "largeHighScoreAppears",
+    "duringQuizGameRound": "duringQuizGameRound",
+    "duringIntro": "duringIntro"
+  }
+}
